@@ -23,13 +23,15 @@ public class Account {
 
     private int age;
 
+    private String address;
+
+    private String phone_number;
+
     @Column(name = "avatar", columnDefinition = "LONGTEXT")
     private String avatar;
 
     @ManyToMany(fetch = FetchType.EAGER)
     private List<Role> roles;
 
-    @ManyToMany
-    private  List<Favourite> favourites;
 
 }
