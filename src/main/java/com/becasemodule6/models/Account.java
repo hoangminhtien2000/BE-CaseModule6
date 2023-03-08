@@ -21,7 +21,7 @@ public class Account {
 
     private String gender;
 
-    private int age;
+    private String gmail;
 
     private String address;
 
