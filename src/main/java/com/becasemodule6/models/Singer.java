@@ -14,19 +14,22 @@ public class Singer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String full_name;
+    private String singer_name;
 
-    private String gender;
+    private String singer_gender;
 
-    private int age;
+    private String birthday;
 
-//    - Tên
-//- Giới tính
-//- Ngày sinh
-//- Dòng nhạc
-//- Tiểu sử
-//- Năm sinh
-//- Band nhạc
-//- Bài hát nổi bật
-//- Thông tin thêm
+    private String music_genre;
+
+    private String story;
+
+    private int year;
+
+    private String band;
+
+    private String hot_music;
+
+    private String information;
+
 }
