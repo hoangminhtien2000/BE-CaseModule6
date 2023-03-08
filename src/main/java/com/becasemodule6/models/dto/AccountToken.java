@@ -9,9 +9,25 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 public class AccountToken {
+    private Long id;
+
     private String username;
+
+    private String password;
+
+    private String full_name;
+
+    private String gender;
+
+    private int age;
+
+    private String address;
+
+    private String phone_number;
+
     private String avatar;
-    private String token;
 
     private List<Role> roles;
+
+    private String token;
 }
