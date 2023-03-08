@@ -1,4 +1,4 @@
-package com.becasemodule6.model;
+package com.becasemodule6.models;
 
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;

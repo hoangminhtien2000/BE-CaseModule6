@@ -1,4 +1,4 @@
-package com.becasemodule6.model;
+package com.becasemodule6.models;
 
 import lombok.Data;
 
@@ -12,8 +12,8 @@ public class Account {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "gmail", columnDefinition = "VARCHAR(50)", unique = true)
-    private String gmail;
+    @Column(name = "username", columnDefinition = "VARCHAR(50)", unique = true)
+    private String username;
 
     private String password;
 
