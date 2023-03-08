@@ -4,9 +4,6 @@ import com.becasemodule6.models.Role;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import javax.persistence.Column;
-import javax.persistence.FetchType;
-import javax.persistence.ManyToMany;
 import java.util.List;
 
 @Data
