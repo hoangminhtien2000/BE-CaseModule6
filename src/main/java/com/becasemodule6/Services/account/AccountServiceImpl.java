@@ -39,10 +39,10 @@ public class AccountServiceImpl implements IAccountService, UserDetailsService {
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
         Account account = accountRepo.findAccountByUsername(username);
-        return new User(account.getUsername(),account.getPassword(),account.getRoles());
+        return new User(account.getUsername(), account.getPassword(), account.getRoles());
     }
 
-    public Account findAccountByUsername(String username){
+    public Account findAccountByUsername(String username) {
         return accountRepo.findAccountByUsername(username);
     }
 }
