@@ -1,7 +1,7 @@
 package com.becasemodule6.config.filter;
 
 import com.becasemodule6.Services.JwtService;
-import com.becasemodule6.Services.impl.AccountServiceImpl;
+import com.becasemodule6.Services.account.AccountServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
