@@ -19,7 +19,7 @@ public class AccountToken {
 
     private String gender;
 
-    private int age;
+    private String gmail;
 
     private String address;
 
